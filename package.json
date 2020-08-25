@@ -1,0 +1,74 @@
+{
+  "homepage": "http://mohanedkohil11.github.io/Notes-theme2",
+  "name": "reminder",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "@trendmicro/react-sidenav": "^0.5.0",
+    "bootstrap": "^4.5.0",
+    "bootstrap-v4-rtl": "^4.4.1-2",
+    "counterpart": "^0.18.6",
+    "firebase": "^7.16.1",
+    "floating-label-react": "^1.0.2",
+    "i18next": "^19.6.3",
+    "i18next-browser-languagedetector": "^5.0.1",
+    "i18next-http-backend": "^1.0.17",
+    "particles-bg": "^2.5.0",
+    "prop-types": "^15.7.2",
+    "pushjs-notification": "^1.0.1",
+    "react": "^16.13.1",
+    "react-avatar": "^3.9.7",
+    "react-blob": "^2.1.0",
+    "react-bootstrap": "^1.3.0",
+    "react-dom": "^16.13.1",
+    "react-floating-label-input": "^4.3.0",
+    "react-i18next": "^11.7.0",
+    "react-interpolate-component": "^0.12.0",
+    "react-pro-sidebar": "^0.4.3",
+    "react-redux": "^5.1.2",
+    "react-redux-firebase": "^3.6.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^3.4.3",
+    "react-sidenav": "^4.0.6",
+    "react-translate-component": "^0.15.1",
+    "react-typical": "^0.1.3",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-firestore": "^0.13.0",
+    "redux-thunk": "^2.3.0",
+    "rtl-detect": "^1.0.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-react-jsx-source": "^7.10.5",
+    "gh-pages": "^3.1.0",
+    "webpack-rtl-plugin": "^2.0.0"
+  }
+}
